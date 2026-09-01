@@ -1,0 +1,32 @@
+# compiled output
+/dist
+/node_modules
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# Vitest
+/vitest.config.ts.timestamp*
